@@ -1,5 +1,5 @@
 const getElement = (selector) => {
-  const element = document.querySelector(selector)
+  const element = document.querySelector(selector);
 
   if (element) return element
   throw Error(
